@@ -5,5 +5,4 @@ const port = 3000;
 
 app.all('/', (req, res)=>{
     console.log('http://' + req.hostname + req.path);
-    res.send
 })
