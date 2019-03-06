@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Formulario</title>
+</head>
+<body>
+<form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="user_name" />
+    </div>
+    <div>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="user_email" />
+    </div>
+    <div>
+            <label for="psswd">Contraseña</label>
+            <input type="password" id="psswd" name="user_password"/>
+    </div>
+    <div class="button">
+         <button type="submit">Guardar Datos</button>
+    </div>
+</form>
+<script src="js/app.js"></script>
+</body>
+</html>
